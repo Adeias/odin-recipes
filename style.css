@@ -16,7 +16,7 @@ a {
     margin-left: 140px;
 }
 
-#pizza {
+#pizza, .dough {
     text-align: left;
     color:yellow;
     background-color: rgb(255, 38, 0);
@@ -24,15 +24,25 @@ a {
     padding: 10px 20px;
 }
 
-#toast {
+body img {
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+#toast, .roll {
     color: white;
     background-color: rgb(102, 60, 20);
     border-radius: 50%;
     padding: 10px 20px;
 }
 
-#cake {
-    text-align: right;
+#cake, .clown {
+    text-align: right, left;
     color: rgb(214, 201, 13);
     background-color: rgb(89, 83, 167);
     border-radius: 50%;
